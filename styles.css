@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 88%;
+    margin: 50px auto;
+    /* border: 1px solid violet; */
+    padding: 20px;
+    display: grid;
+}
+
+.container{
+    display: flex;
+}
+
+.left-top{
+    width: 634px;
+    height: 560px;
+    background: #D9D9D9;
+    margin-bottom: 20px;
+    background-image: url(https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg);
+}
+.left-bottom{
+    width: 634px;
+    height: 238px;
+    background: #D9D9D9;
+    background-image: url(https://st2.depositphotos.com/1772227/11813/i/600/depositphotos_118131960-stock-photo-mangrove-tree-on-the-sea.jpg);
+}
+
+.right-top{
+    display: flex;
+    width: 634px;
+    height: 560px;
+    /* background: #D9D9D9; */
+    margin-left: 20px;
+}
+
+.right-bottom{
+    width: 634px;
+    height: 238px;
+    background: #D9D9D9;
+    background-image: url(https://pikwizard.com/photos/e843ef232abe636c13e790bb6ec5b33f-s.jpg);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.right-top-left-top{
+    width: 300px;
+    height: 261px;
+    background-color: red;
+    background-image: url(https://cdn.pixabay.com/photo/2015/01/07/15/51/woman-591576__340.jpg);
+}
+
+.right-top-left-bottom{
+    margin-top: 35px;
+    width: 300px;
+    height: 261px;
+    background-color: red;
+    background-image: url(https://i.natgeofe.com/n/cfa8f51f-9389-45c3-8e65-3b7fb784fe45/1073.jpg?w=636&h=477);
+}
+
+.right-top-right-top{
+    margin-left:33px ;
+    width: 300px;
+    height: 261px;
+    background-color:black;
+    background-image: url(https://img.freepik.com/premium-photo/planet-mars-dark-background-elements-this-image-furnished-by-nasa-high-quality-photo_496756-8597.jpg?w=2000);
+}
+
+.right-top-right-bottom{
+    margin-left:33px ;
+    margin-top: 35px;
+    width: 300px;
+    height: 261px;
+    background-color: red;
+    background-image: url(https://wp.en.aleteia.org/wp-content/uploads/sites/2/2017/05/web3-planet-earth-space-nasa-space-stars-sun-shutterstock_526255060-shutterstock.jpg?w=620&h=310&crop=1);
+} 
+
+p{
+    margin-left: 530px;
+    margin-bottom: -300px;
+}
